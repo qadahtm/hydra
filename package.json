@@ -1,12 +1,12 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "hydra",
+  "version": "0.0.1",
+  "description": "A Test-bed for Multi-path Adaptive Video Streaming",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/qadahtm/hydra",
   "keywords": [
     "Electron",
     "quick",
@@ -17,6 +17,11 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^3.0.7"
+    "electron": "~3.0.10"
+  },
+  "dependencies": {
+    "longjohn": "~0.2.12",
+    "stringify-object": "~3.3.0",
+    "sudo-prompt": "~8.2.5"
   }
 }
